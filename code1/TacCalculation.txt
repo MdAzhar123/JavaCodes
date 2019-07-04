@@ -1,0 +1,52 @@
+Create a class by the name 'Tax' with a private double type
+filed 'tax'. For initialising this field define a parameterised
+constructor. Also override the toString() method for printing the
+calculated tax amount.
+
+Create a 2nd class 'Person'. For the class declare the private fields
+name,gender,age.Define a parameterised constructor for initialising these fields.
+Define an abstract method public Tax calcTax().
+
+Using the 'Person' class create 3 classes, 'Student','Employee',
+'BusinessMan'.
+
+For the Student class declare fields, roll,class,section.
+Define the necessary constructor function for the class.
+A student is not entitled for any tax, so override the method
+calcTax() accordingly.
+
+For the Employee class declare fields, employee_id and salary.
+Define the necessary constructor for the class.
+Override the calcTax() to calculate tax as 18% of salary.
+
+For the BusinessMan class declare fields,monthly_income and assets.
+Define the necessary constructor for the class.
+Override the calcTax() to calculate tax as 21% of the sum of income and
+assets.
+
+Create a class 'TaxService' and provide the following method for the class.
+public Tax calculateTax(Person p).The method should be capable of receiving
+object of any sub class of the Person class and invoke the required
+version of the calcTax() to calculate the tax.
+
+Lastly, create the 'Main' class and define the main() method to use the above mentioned classes and calculate and print tax of different types
+of persons.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

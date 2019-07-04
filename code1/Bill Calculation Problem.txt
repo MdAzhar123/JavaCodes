@@ -1,0 +1,55 @@
+Create a class by the name 'Readings'.
+For the class declare the following private fields.
+ int consumerNo, double prevRead,double currRead.
+For the class generate the necessay getters and setters 
+if required, and define a 3 parameter constructor for 
+initialising the 3 fields for the 'Readings' object.
+
+Create a second class by the name 'Bill' for storing the bill
+details obtained on readings taken.
+For the class declare the following private fields.
+int consumerNo,double units,double totCharge.
+Generate the necessary getters and setters for the fields
+if required.
+For the class override the toString() method of the 'Object'
+class to return the Bill details as a string.
+
+Create a 3rd class by the name 'BillCalculator' that should
+contain the functionality for calculating the bill details,
+such as units consumed & totCharge.
+For the class define the following method
+public Bill calculateBill(Readings r)
+{
+  //Create, initialise and retutn a 'Bill' object
+  // containing the bill details
+}
+
+Finally create the Main class and inside the main()
+method accept the readings details,calculate the bill
+and print the bill.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

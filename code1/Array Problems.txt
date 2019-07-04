@@ -1,0 +1,230 @@
+Programming Fundamentals mcqs
+
+1. Technology Fundamentals & Basic Networking Concepts
+2. Basics of HTML.
+3. Basic of Excel.
+4. Operating System concepts
+5. Programming snippets.
+
+1.Create a class by the name UserMainCode.
+For the class define a method with the signature given below
+public static Integer[]getElements(Integer[]array1,Integer[] array2)
+{
+  //Insert code to return array1 after removing all the elements
+  //from array1 that are present in array2
+}
+
+Create another class 'Main'.For the class define the main() method
+where you use the 'getElements()' method of the previous class.
+
+2.Write a program that prints the average of all the integers
+  that are prime in a single dimension array.
+  Input1 should be the number of integers to input.
+  Input2 should be th integers separated by ' '.
+  Output should be a double value that should be the average
+  of all the prime integers from the array.
+  If Input1 is negative, the program should print 'Invalid size'
+  and should terminate.
+  If any integer in input2 is negative, the program should print,
+  'Invalid integer' and should terminate.
+
+  Specimen Inputs
+  10
+  0 1 2 3 4 5 6 7 8 9 10
+  Output:4.25
+  Proper validations are to be given to ensure that input1 is not zero
+  or negative.
+  Also the array elements should also be posotive integers.
+
+
+3. Write a program that inputs some integers and prints the frequency
+   of the integers.
+   Validations should be given such that the no of integers to be entered
+   is not zero or negative and no value is negative.
+
+  Specimen Input1 11
+  Specimen Input2 1 2 1 3 7 1 2 2 2 9 10
+  Output 1=3
+         2=5
+         3=1
+         7=1
+         9=1
+         10=1
+
+Specimen Input 2 0
+Output Invalid size
+
+Specimen Input3 6
+1 2 1 -3 2 4
+Output Invalid Input
+
+3.
+
+ Repeated Salary Count
+ John is working as a clerk in an organization where N number of people are working. His boss has asked him to get the count of employees who get same salary. Help him to get the count of repeated salary.
+ Include a function named countRepeaters that accepts 2 arguments and returns an int. The first argument is the input array and the second argument is an int that corresponds to the size of the array. The function returns an int that corresponds to the number of repeaters.
+ If the size of the array is negative or if any of the array elements are negative, print “Invalid Input” and terminate the program.
+ Input and Output Format:
+Input consists of n+1 integers. The first integer corresponds to n, the number of elements in the array. The next 'n' integers correspond to the elements in the array.
+Output consists of an integer that corresponds to the number of repeaters.
+ Assume that utmost one element in the array would repeat.
+Assume that the maximum number of elements in the array is 20.
+ 
+Sample Input 1:
+5
+1000
+2000
+3500
+2000
+5000
+ 
+Sample Output 1:
+2
+ 
+Sample Input 2:
+-5
+ 
+Sample Output 2:
+Invalid Input
+ 
+Sample Input 3:
+5
+1000
+-2000
+
+Sample Output 3:
+Invalid Input
+
+
+4.
+
+Write a program that inputs some positive integers from the user
+and prints the only those integers in the array that are repeating.
+Validations should be given that the no. of inputs is atleast 1
+and each number input for the array is not negative.
+
+Sample Input1:
+10
+1 2 1 3 4 5 6 5 5 7 
+Output 2
+
+Sample Imput2:
+-6
+Invalid size
+
+Sample Input 3
+10
+1 2 11 15 2 -7 8 8 9 10
+Invalid input
+
+5.
+
+Read the question carefully and follow the input and output format.
+
+Given an Integer array, find out sum of Even and odd Numbers individually and find the maximum.
+
+Input and Output Format :
+First line of input consists of n, the number of elements. Next n lines correspond to the array elements. Output consist of maximum of odd and even sum.
+
+1) Print "Invalid array size" when size of the array is a negative number and terminate the program.
+2) Print "Invalid input" when there is any negative numbers available in the input array and terminate the program.
+
+
+Include a function named maximumSum(int numbers[], int size) whose return type is an integer,.
+
+Sample Input 1:
+5
+12
+13
+14
+15
+16
+
+Sample Output 1:
+42
+
+Sample Input 2:
+-13
+
+Sample Output 2:
+Invalid array size
+
+6.
+16.searchKeys
+Read the question carefully and follow the input and output format.
+
+Given an integer array, first index represents the key & second index represents the value. Find keys for the given value.
+
+Input and Output Format:
+First line of input consists of n, the number of elements. Next n lines correspond to the array elements. The next line consistts of an integer that represents the value to be searched. 
+Output consist of an integer array.
+
+1) Print "Invalid array size" when size of the array is negative and terminate the program.
+2) Print "Invalid input" when there is any negative numbers available in the input array and terminate the program.
+3) Print "Key not found" when there is no keys found.
+
+Include a function named searchKeys(int array[], int size) whose return type is void.
+The output array is stored in a global variable named found.
+
+Sample Input 1:
+8
+1
+4
+2
+4
+3
+4
+5
+6
+4
+
+Sample Output 1:
+1
+2
+3
+
+Sample Input 2:
+5
+5
+6
+7
+8
+9
+-5
+
+Sample Output 2:
+Key not found
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

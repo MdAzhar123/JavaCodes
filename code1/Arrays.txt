@@ -1,0 +1,136 @@
+Array declaration -
+In this step we specify that the variable is an array
+and the type of data it can hold
+
+Syntax:
+datatype array_name[];
+datatype[] arraay_name;
+e.g
+  int qty[];
+  double[] prices;
+  Point[] p;//Declares an array 'p' which can hold objects of the 'Point'   class
+
+Array instantiation -
+In Java an array is treated as an array.
+In this step we create the array object and in the process
+we allocate the size of the array.
+
+Syntax:
+arrayname=new datatype[size];
+e.g qty=new qty[10];
+    prices=new double[5];
+    p=new Point[5];
+
+length is an attribute of the array that holds the array size.
+
+Q1.Write a program that accepts some positive integers 
+   from the user and store them in a single dimension array.
+   The program should print all the odd integers in one line
+   and all the even integers in another line.
+
+Specimen input:
+How many integer ?
+10
+Enter the integers
+1
+2
+3
+-4
+Enter a +ve integer
+4
+5
+6
+7
+8
+9
+10
+Output
+  The odd integers are 1 3 5 7 9
+  The even integers are 2 4 6 8 10
+
+Q2.
+Input some positive integrs from the user and store them
+in a single dimension array.
+Next input an ineteger  from the user and if the integer
+exists in the array delete the integer from the array
+and print the array.
+
+Specimen inputs :
+
+
+How many integer ?
+10
+Enter the integers
+1
+2
+3
+-4
+Enter a +ve integer
+4
+5
+6
+7
+8
+9
+10
+Enter the integer to delete
+7
+The integer found in the array and deleted.
+Printing the remaining elements from the array
+1 2 3 4 5 6 8 9 10
+
+Specimen input 2
+
+How many integer ?
+5
+Enter the integers
+1
+2
+3
+4
+5
+Enter the integer to delete
+9
+Sorry no such integer exists in the array
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

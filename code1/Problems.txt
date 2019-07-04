@@ -1,0 +1,82 @@
+1.Write a program that inputs a set of integers from the user
+and prints the maximum and the minimum integers from the set.
+
+Specimen input:
+Enter the number of integers:
+10
+Enter the integers
+5
+1
+59
+9
+3
+7
+35
+5
+21
+19
+Max=59
+Min=1
+
+2. Write a program that inputs any positive integer from the user
+   and prints all its factors.
+   Example :
+   Input
+    6
+   Output 1 2 3 6
+
+   Input
+    18
+   Output 1 2 3 6  9 18
+
+3. Write a program that inputs an integer from the user and prints the next
+   3 perfect numbers.A perfect number is one whose sum of its proper
+   positive factors is the number itself.
+   Example : 6=1+2+3.
+
+4. Write a program that inputs a multi digit integer from the user
+   and checks if the integer is a strong number.
+   A strong number is one whose sum of the factorial of each of its digit
+   equals to the integer.
+   Example : 145=!1+!4+!5=1+24+120=145.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
